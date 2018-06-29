@@ -1,0 +1,22 @@
+{
+  "name": "inlinestyles",
+  "version": "1.0.0",
+  "description": "A simple utility for conditionally joining inline styles",
+  "main": "index.js",
+  "author": "@subpx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subpx/inlinestyles.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "css",
+    "inline",
+    "styles",
+    "selectors",
+    "util",
+    "utility"
+  ]
+}
