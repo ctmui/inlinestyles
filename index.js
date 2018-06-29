@@ -31,10 +31,7 @@
 					if (hasOwn.call(arg, key)) {
 						var valueType = typeof arg[key];
 
-						if(valueType === 'boolean' && arg[key]) {
-							styles.push(key);
-						}
-						else if(valueType === 'string') {
+						if(valueType === 'string' || valueType === 'number') {
 							styles.push(`${key}:${arg[key]}`);
 						}
 					}

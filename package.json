@@ -18,5 +18,11 @@
     "selectors",
     "util",
     "utility"
-  ]
+  ],
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
 }
