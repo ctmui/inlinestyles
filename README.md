@@ -1,6 +1,8 @@
 Inline Styles
 ===========
 
+[![Build Status](https://travis-ci.org/JedWatson/classnames.svg?branch=master)](https://travis-ci.org/JedWatson/classnames)
+
 A simple JavaScript utility for conditionally joining inline styles.
 
 ```js
