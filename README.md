@@ -1,5 +1,6 @@
-Inline Styles
-===========
+inlinestyles [![Build Status](https://travis-ci.org/subpx/inlinestyles.svg?branch=master)](https://travis-ci
+.org/subpx/inlinestyles)
+============
 
 A simple JavaScript utility for conditionally joining inline styles.
 
