@@ -32,7 +32,7 @@
 						var valueType = typeof arg[key];
 
 						if(valueType === 'string' || valueType === 'number') {
-							styles.push(`${key}:${arg[key]}`);
+							styles.push(key + ':' + arg[key]);
 						}
 					}
 				}
