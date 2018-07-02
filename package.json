@@ -29,7 +29,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "mocha": "^2.1.0",
+    "mocha": "^5.2.0",
     "xo": "^0.21.1"
   }
 }
