@@ -19,10 +19,17 @@
     "util",
     "utility"
   ],
-  "scripts": {
-    "test": "mocha tests/*.js"
+  "engines": {
+    "node": ">=8"
   },
+  "scripts": {
+    "test": "xo && mocha tests.js"
+  },
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "xo": "^0.21.1"
   }
 }
