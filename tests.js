@@ -14,7 +14,7 @@ describe('inlinestyles', () => {
 	});
 
 	it('should be trimmed', () => {
-		assert.equal(inlinestyles({background: 'black'}, 'color:gold', 0, undefined), 'background:black;');
+		assert.equal(inlinestyles({background: 'black'}, 'color:gold', 0, undefined, false, null), 'background:black;');
 	});
 
 	it('returns an empty string for an empty configuration', () => {

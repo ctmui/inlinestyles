@@ -3,9 +3,8 @@
 module.exports = (...args) => {
 	const declarations = {};
 	let inlineStyles = '';
-
 	for (const item of args) {
-		if (typeof item === 'object') {
+		if (item && typeof item === 'object') {
 			for (const [key, value] of Object.entries(item)) {
 				const typeOfValue = typeof value;
 				if (typeOfValue === 'string' || typeOfValue === 'number') {
