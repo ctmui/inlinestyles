@@ -1,5 +1,5 @@
 {
-  "name": "inlinestyles",
+  "name": "@ctm/inlinestyles",
   "version": "1.0.0",
   "description": "A simple utility for conditionally joining inline styles",
   "main": "index.js",
