@@ -2,7 +2,7 @@
   "name": "@ctm/inlinestyles",
   "version": "0.0.2",
   "description": "A simple utility for conditionally joining inline styles",
-  "main": "index.js",
+  "main": "inlinestyles.js",
   "author": "@subpx",
   "license": "MIT",
   "repository": {
@@ -23,13 +23,20 @@
     "node": ">=8"
   },
   "scripts": {
+    "build": "./node_modules/.bin/babel index.js --out-file inlinestyles.js",
     "test": "xo && mocha tests.js"
   },
   "files": [
     "index.js"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "mocha": "^5.2.0",
     "xo": "^0.21.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
   }
 }
