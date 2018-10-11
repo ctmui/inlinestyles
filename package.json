@@ -1,6 +1,6 @@
 {
   "name": "@ctm/inlinestyles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple utility for conditionally joining inline styles",
   "main": "inlinestyles.js",
   "author": "@subpx",
