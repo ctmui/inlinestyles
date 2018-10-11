@@ -2,9 +2,9 @@ const presets = [
 	[
 		'@babel/env',
 		{
-			useBuiltIns: 'usage',
+			useBuiltIns: 'usage'
 		}
 	]
 ];
 
-module.exports = { presets };
+module.exports = {presets};

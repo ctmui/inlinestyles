@@ -24,7 +24,7 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/babel index.js --out-file inlinestyles.js",
-    "test": "xo && mocha tests.js"
+    "test": "xo index.js && mocha tests.js"
   },
   "files": [
     "index.js"
